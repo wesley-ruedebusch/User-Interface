@@ -127,3 +127,36 @@ hr {
 	margin-bottom: 50px;
 }
 
+.top-middle-content {
+	display: inline-block;
+	width: 900px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.top-middle-text {
+	margin: 5px;
+	padding: 5px;
+	width: 48%;
+	display: inline-block;
+}
+
+.bottom-middle-text {
+	margin: 5px;
+	padding: 5px;
+	width: 31%;
+	display: inline-block;
+}
+
+.middle-img {
+	margin-bottom: 20px;
+}
+
+.copyright p {
+	text-align: center;
+	margin-top: 40px;
+}
