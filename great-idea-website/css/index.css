@@ -81,23 +81,24 @@ header nav a {
 }
 
 header img.logo {
-	margin-left: 135px;
+	margin: 0px;
+	margin-left: 125px;
+	vertical-align: middle;
+	padding: 0% 0% 2%;
 }
 
-.cta {
+.iod-banner {
 	display: inline-block;
 	width: 900px;
-	margin-bottom: 0px;
+	padding-bottom: 100px;
 }
 
-.cta-content-snip {
+.headerimg {
 	display: inline-block;
-	margin-top: 40px;
-	margin-left: -69px;
-    height: fit-content;
+	
 }
 
-.cta-content-title {
+.banner-text {
 	display: inline-block;
 	margin-left: 50px;
 	text-align: center;
@@ -105,13 +106,14 @@ header img.logo {
 }
 
 h1 {
-	margin-bottom: 80px;
-    font-size: 85px;
-    margin-left: 0px;
+	display: block;
+	margin: 5% auto;
+	font-size: 65px;
 }
 
-.snip {
-	margin-left: 120px
+.himg {
+	display: inline-block;
+	margin: 0px 0px 0px 50px;
 }
 
 button {
@@ -127,10 +129,11 @@ hr {
 	margin-bottom: 50px;
 }
 
-.top-middle-content {
+.top-content {
 	display: inline-block;
 	width: 900px;
 	margin-bottom: 25px;
+	border-top: dashed black 2px;
 }
 
 h2 {
@@ -138,25 +141,32 @@ h2 {
 	font-size: 20px;
 }
 
-.top-middle-text {
+.text-content {
 	margin: 5px;
 	padding: 5px;
 	width: 48%;
 	display: inline-block;
 }
 
-.bottom-middle-text {
+.bot-text {
 	margin: 5px;
 	padding: 5px;
-	width: 31%;
+	width: 30%;
 	display: inline-block;
+}
+
+.bot-content {
+	display: inline-block;
+	width: 900px;
+	margin-bottom: 25px;
+	border-bottom: dashed black 2px;
 }
 
 .middle-img {
 	margin-bottom: 20px;
 }
 
-.copyright p {
+.copyright {
 	text-align: center;
 	margin-top: 40px;
 }
