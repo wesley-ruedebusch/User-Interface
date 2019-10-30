@@ -64,3 +64,23 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+header nav a {
+	margin: 0 20px;
+	color: black;
+}
+
+header img.logo {
+	margin-left: 135px;
+}
+
